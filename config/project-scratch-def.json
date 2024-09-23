@@ -1,0 +1,11 @@
+{
+  "orgName": "Rentall Development",
+  "country": "US",
+  "edition": "Enterprise",
+  "adminEmail": "me@cgary.com",
+  "description": "Salesforce Organization Instance for Development on the Rentall Application.",
+  "features": ["API","AuthorApex","BigObjectBulkAPI","ChangeDataCapture","ConnectedAppToolingAPI","ContactsToMultipleAccounts",
+    "DebugApex","DefaultWorkflowUser","DeferSharingCalc","EnableSetPasswordInApi","EventLogFile","ForceComPlatform",
+    "Interaction","LightningSalesConsole","LightningServiceConsole","RecordTypes","RefreshOnInvalidSession","SalesforceContentUser",
+    "SalesUser","ServiceCloud","ServiceUser","SharedActivities"]
+}
