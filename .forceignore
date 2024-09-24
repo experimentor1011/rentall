@@ -12,4 +12,9 @@ package.xml
 **/__tests__/**
 **/tsconfig.json
 
+# Utility Bars
+**/LightningService_UtilityBar.flexipage-meta.xml
+**/LightningSalesConsole_UtilityBar.flexipage-meta.xml
+**/AppSwitcher.appMenu-meta.xml
+
 **/*.ts

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Parent Category that this category is contained within</description>
+    <inlineHelpText>The Parent Category that this category is contained within. To set up a category hierarchy, relate the category to another one.</inlineHelpText>
+    <label>Parent</label>
+    <referenceTo>Category__c</referenceTo>
+    <relationshipLabel>Child Categories</relationshipLabel>
+    <relationshipName>ChildCategories</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

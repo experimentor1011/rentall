@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>RentAll</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Provides access to administration features and functionality of RentAll Application</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category__c.Parent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>RentAll Administration</label>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Category__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabSettings>
+        <tab>Category__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
